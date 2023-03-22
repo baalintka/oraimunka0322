@@ -1,5 +1,5 @@
 import { SZAMLISTA, SZOVEGLISTA,OBJEKTUMLISTA } from "./adat.js";
-
+import{rendezesSzam,rendezesSzoveg,rendezesObjektum,veletlenSorrend} from "./adat.js";
 
 $(function(){
     console.log(SZOVEGLISTA);
@@ -54,7 +54,7 @@ function rendezesNevszerint(lista,kulcs){
         }
         });
     }
-function rendezesNevszerint(lista,kulcs){
+function rendezesObjektum(lista,kulcs){
     if(typeof kulcs == "number"){
         rendezesSzam(lisa,kulcs);
 
