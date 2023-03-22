@@ -54,4 +54,13 @@ function rendezesNevszerint(lista,kulcs){
         }
         });
     }
+function rendezesNevszerint(lista,kulcs){
+    if(typeof kulcs == "number"){
+        rendezesSzam(lisa,kulcs);
+
+    }else{
+        rendezesSzoveg(lisa,kulcs);
+
+    }
+}
 }
